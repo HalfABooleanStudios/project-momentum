@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ac9fc797157ca844bc2808c8c51a45b, type: 3}
+  m_Name: armour_light
+  m_EditorClassIdentifier: 
+  name: Light Armour
+  description: 'Standard issue armour for all recruits
+
+    Allows for decent mobility
+    but does not give much in terms of defence'
+  durability: 50
+  weight: 3
+  absorbStats:
+  - damageType: 0
+    playerPercent: 0.5
+    armourPercent: 0.5
+  - damageType: 1
+    playerPercent: 1
+    armourPercent: 0
+  isBroken: 0

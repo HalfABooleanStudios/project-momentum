@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d76cf73aad794e4f9192fe1fd1a81b7, type: 3}
+  m_Name: agent_heavy
+  m_EditorClassIdentifier: 
+  name: Heavy
+  description: A seasoned veteran, the Heavy can tank bullets left and right, but
+    running is not his forte
+  mass: 80
+  movementInfo:
+    peakMomentum: 1600
+    runForce: 1200
+    haltForce: 3000
+    wallrunStuckForce: 5000
+    jumpMomentum: 400
+    jumpTime: 0.02
+    jumpCount: 1
+    sprintBoost: 2.25
+    sneakSpeed: 2
+    wallrunJumpMultiplier: 1.5
+  loadoutArmour: {fileID: 11400000, guid: e7398dcdf791ae849ac11f9c48652e72, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d76cf73aad794e4f9192fe1fd1a81b7, type: 3}
+  m_Name: agent_juke
+  m_EditorClassIdentifier: 
+  name: Juke
+  description: Quick on his feet, Juke can dash across the field with expert mobility
+  mass: 50
+  movementInfo:
+    peakMomentum: 1500
+    runForce: 1000
+    haltForce: 2000
+    wallrunStuckForce: 5000
+    jumpMomentum: 300
+    jumpTime: 0.02
+    jumpCount: 1
+    sprintBoost: 1.5
+    sneakSpeed: 2
+    wallrunJumpMultiplier: 1.5
+  loadoutArmour: {fileID: 11400000, guid: a9287878121487549a149e4924d12c65, type: 2}
